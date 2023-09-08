@@ -17,7 +17,7 @@ const CartPage: FC<CartPageProps> = ({}) => {
 
     useEffect(()=>{
         setIsMounted(true);
-    });
+    },[]);
 
     if(!isMounted){ return null ; }
 
